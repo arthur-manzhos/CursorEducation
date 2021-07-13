@@ -123,6 +123,7 @@ body {
     background: rgba(13, 12, 34, 0.05);
     border-radius: 8px;
     margin: 22px 10px;
+    border: 0px;
 }
 
 .button-allow {
@@ -133,6 +134,7 @@ body {
     margin: 22px 16px 22px 10px;
     color: #FFFFFF;
     min-width: max-content;
+    border: 0px;
 }
 
 .wrapper-two>p {
@@ -174,6 +176,7 @@ body {
     color: #26262B;
     border-radius: 8px;
     margin: 18px 16px 18px 0;
+    border: 0px;
 }
 
 .link {
@@ -234,6 +237,7 @@ a {
     border-radius: 6px;
     padding: 8px 20px;
     color: #FFFFFF;
+    border: 0px;
 }
 
 .wrapper-five {
@@ -288,6 +292,7 @@ a {
     text-align: center;
     color: #687F8C;
     padding: 8px;
+    border: 0px;
 }
 
 .btn-all {
@@ -303,6 +308,7 @@ a {
     color: #FFFFFF;
     width: 160px;
     height: 32px;
+    border: 0px;
 }
 
 .wrapper-six {
@@ -354,6 +360,7 @@ h3 {
     line-height: 24px;
     color: #FFFFFF;
     margin: 32px 99px;
+    border: 0px;
 }
 
 .wrapper-seven {
@@ -408,4 +415,5 @@ h3 {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+    border: 0px;
 }
