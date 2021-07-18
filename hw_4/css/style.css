@@ -8,7 +8,7 @@
     position: relative;
     display: flex;
     background-color: #ED4C5C;
-    width: 1440px;
+    max-width: 1440px;
     height: 500px;
     font-family: 'Lato', sans-serif;
 }
@@ -105,10 +105,10 @@
     height: 50px;
     border: 1px solid #333333;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: 117px 20px 0 735px;
     text-align: center;
-    background-color: #00ffff;
+    background-color: #FFFFFF;
 }
 
 .last-name {
@@ -117,10 +117,10 @@
     height: 50px;
     border: 1px solid #333333;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: 117px 165px 0 950px;
     text-align: center;
-    background-color: #00ffff;
+    background-color: #FFFFFF;
 }
 
 .phone-number {
@@ -129,22 +129,22 @@
     height: 50px;
     border: 1px solid #333333;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: 200px 165px 0 735px;
     text-align: center;
-    background-color: #00ffff;
+    background-color: #FFFFFF;
 }
 
-#selected {
+.selected {
     position: absolute;
     width:417px;
     height: 50px;
     border: 1px solid #333333;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: 285px 165px 0px 735px;
     text-align: center;
-    background-color: #00ffff; 
+    background-color: #FFFFFF; 
 }
 
 .btn-submit {
@@ -155,9 +155,18 @@
     padding: 16px 34px;
     color: #FFFFFF;
     margin: 372px 545px 0 735px ;
-    border-radius: 8px;
-    border: 0px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
+
+.btn-submit:hover {
+    background-color: #0088cc;
+}
+
+input {outline: 0 !important;}
+
+select {outline: 0 !important;}
 
 .footer {
     display: flex;
@@ -236,4 +245,3 @@
     position: absolute;
     margin: 130px 0 0 1022px;
 }
-
