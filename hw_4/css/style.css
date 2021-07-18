@@ -8,7 +8,7 @@
     position: relative;
     display: flex;
     background-color: #ED4C5C;
-    max-width: 1440px;
+    width: 1440px;
     height: 500px;
     font-family: 'Lato', sans-serif;
 }
@@ -145,6 +145,7 @@
     margin: 285px 165px 0px 735px;
     text-align: center;
     background-color: #FFFFFF; 
+    outline: 0 !important;
 }
 
 .btn-submit {
@@ -165,8 +166,6 @@
 }
 
 input {outline: 0 !important;}
-
-select {outline: 0 !important;}
 
 .footer {
     display: flex;
