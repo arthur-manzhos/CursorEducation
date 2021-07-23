@@ -19,7 +19,17 @@ table {
     padding-left: 10px;
     
 }
+.t-head{
+    width: 500px;
+    height: 49px;
+    border-top: 1px solid gray;
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+}
 .text-color {
+    width: 318px;
+    height: 49px;
     border-top: 1px solid gray;
     text-align: left;
     color: #fff;
@@ -35,4 +45,17 @@ table {
     text-align: right;
     padding-right: 10px;
     color: #fff;
+}
+
+.search-area {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: rgb(53, 53, 53);
+    width: 200px;
+    height: 30px;
+    margin: 8px;
+    cursor: pointer;
+}
+.search-area:hover {
+    opacity: 0.5;
 }
