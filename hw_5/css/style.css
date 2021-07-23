@@ -17,7 +17,7 @@ header {
     height: 60px;
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around;*/
     align-items: center;
 }
 
@@ -26,14 +26,14 @@ header {
     height: 35px;
     margin: 62px 120px 62px 240px;
     cursor: pointer;
+    margin-right: 120px;
 }
 
 .header-items {
-    width: 322px;
+    padding-right: 450px;
+    width: 360px;
     height: 30px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header-items>p {
@@ -43,7 +43,7 @@ header {
     text-decoration: none;
     color: #4B5D68;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
 }
 
