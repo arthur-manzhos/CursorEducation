@@ -112,8 +112,9 @@ header {
     height: 52px;
     display: grid;
     grid-template-columns: 68px 86px 82px 48px;
-    grid-template-rows: 56px;
+    grid-template-rows: 52px;
     column-gap: 40px;
+    align-items: center;
     
 } 
 
@@ -144,6 +145,7 @@ header {
     grid-template-columns: 40px 130px;
     grid-template-rows: 40px;
     column-gap: 10px;
+    align-items: center;
 }
 
 .mail>a {
@@ -174,6 +176,7 @@ header {
     grid-template-columns: 40px 141px;
     grid-template-rows: 40px;
     column-gap: 10px;
+    align-items: center;
 }
 
 .phone-svg {
@@ -378,4 +381,105 @@ header {
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.rooms-img-one {
+    background-image: url(../img/jpg/room_1.jpg);
+    width: 738px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    filter: drop-shadow(0px 10px 20px rgba(17, 17, 17, 0.1));
+    border-radius: 10px;
+}
+
+.first-street {
+    position: absolute;
+    width: 738px;
+    height: 300px;
+    top: 84px;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 20px rgba(17, 17, 17, 0.1));
+    cursor: pointer;
+} 
+.first-street:hover {
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.txt-one>h3 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.txt-one>p {
+    position: absolute;
+    top: 294px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.location-svg {
+    background-image: url(../img/svg/location.svg);
+    width: 15px;
+    height: 19px;
+    position: absolute;
+    top: 343px;
+    left: 40px;
+}
+
+.location>p {
+    position: absolute;
+    top: 342px;
+    left: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.rooms-btn {
+    position: absolute;
+    top: 330px;
+    left: 592px;
+    width: 126px;
+    height: 33px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.rooms-btn:hover {
+    opacity: 0.8;
 }
