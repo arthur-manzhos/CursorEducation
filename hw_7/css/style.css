@@ -383,6 +383,13 @@ header {
     color: #FFFFFF;
 }
 
+/* .wrapper-one {
+    position: relative;
+    width: 738px;
+    height: 300px;
+    border-radius: 10px;
+} */
+
 .rooms-img-one {
     background-image: url(../img/jpg/room_1.jpg);
     width: 738px;
@@ -482,4 +489,208 @@ header {
 
 .rooms-btn:hover {
     opacity: 0.8;
+}
+
+.rooms-img-two {
+    background-image: url(../img/jpg/room_2.jpg);
+    width: 522px;
+    height: 300px;
+}
+.rooms-img-three {
+    background-image: url(../img/jpg/room_3.jpg);
+    width: 522px;
+    height: 300px;
+}
+.rooms-img-four {
+    background-image: url(../img/jpg/room_4.jpg);
+    width: 738;
+    height: 300px;
+}
+.rooms {
+    display: grid;
+    grid-template-columns: 522px 216px 522px;
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px 20px;
+}
+
+.about-us {
+    position: relative;
+    width: 1280px;
+    height: 310px;
+    left: 80px;
+    top: 200px;
+}
+
+.about-txt>h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+}
+.about-txt>p {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 433px;
+    height: 125px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #111111;
+}
+
+.stats {
+    position: absolute;
+    width: 748px;
+    height: 88px;
+    top: 103px;
+    left: 532px;
+    display: grid;
+    grid-template-columns: 191px 186px 171px;
+    grid-template-rows: 88px;
+    column-gap: 100px;
+}
+
+.deal-svg {
+    background-image: url(../img/svg/deal.svg);
+    width: 88px;
+    height: 88px;
+    position: absolute;
+}
+
+.group-txt>h2 {
+    position: absolute;
+    top: 4px;
+    left: 108px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+}
+.group-txt>p {
+    position: absolute;
+    top: 58px;
+    left: 108px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111111;
+}
+.review-svg {
+    background-image: url(../img/svg/review.svg);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+}
+.review-txt>h2 {
+    position: absolute;
+    top: 4px;
+    left: 391px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1; 
+}
+.review-txt>p {
+    position: absolute;
+    top: 58px;
+    left: 391px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111111;
+}
+.home-svg {
+    background-image: url(../img/svg/home.svg);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+}
+.home-txt>h2 {
+    position: absolute;
+    top: 4px;
+    left: 677px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+}
+.home-txt>p {
+    position: absolute;
+    top: 58px;
+    left: 677px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111111;
+}
+.horizontal-one::before {
+    content: "";
+    position: absolute;
+    width: 197px;
+    height: 1px;
+    border-style: solid;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    border: 0;
+}
+.horizontal-one {
+    position: absolute;
+    top: 309px;
+    width: 1280px;
+    height: 1px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    border-radius: 1px;
+    border: 0;
+}
+
+.horizontal-one::after {
+    content: "";
+    position: absolute;
+    right: 79px;
+    height: 1px;
+    border-style: solid;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border: 0;
+}
+/* .horizontal-two {
+    position: absolute;
+    top: 309px;
+    left: 197px;
+    width: 886px;
+    height: 1px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    border-radius: 1px;
+    border: 0;
+}
+.horizontal-three {
+    position: absolute;
+    top: 309px;
+    left: 1084px;
+    width: 197px;
+    height: 1px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border: 0;
+} */
+
+.contacts {
+    position: relative;
+    top: 107px;
+    left: 80px;
+    width: 1280px;
+    height: 429px;
 }
