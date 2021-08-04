@@ -10,6 +10,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+main {
+    width: 1440px;
+}
 
 .rent {
     position: relative;
@@ -136,7 +139,7 @@ header {
 
 .mail {
     position: absolute;
-    top: 0;   
+    top: 7px;   
     left: 455px;
     width: 180px;
     height: 40px;
@@ -167,7 +170,7 @@ header {
 
 .phone {
     position: absolute;
-    top: 0;
+    top: 7px;
     left: 655px;
     width: 191px;
     height: 40px;
@@ -666,31 +669,196 @@ header {
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border: 0;
 }
-/* .horizontal-two {
-    position: absolute;
-    top: 309px;
-    left: 197px;
-    width: 886px;
-    height: 1px;
-    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
-    border-radius: 1px;
-    border: 0;
-}
-.horizontal-three {
-    position: absolute;
-    top: 309px;
-    left: 1084px;
-    width: 197px;
-    height: 1px;
-    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    border: 0;
-} */
 
 .contacts {
     position: relative;
-    top: 107px;
+    top: 314px;
     left: 80px;
     width: 1280px;
     height: 429px;
+}
+
+.contacts-one>h2 {
+    position: absolute;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+}
+
+.contacts-two {
+    position: absolute;
+    top: 88px;
+    width: 381px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 381px;
+    grid-template-rows: repeat(3, 40px);
+    row-gap: 15px;
+}
+
+.img-local {
+    background-image: url(../img/svg/contacts_local.svg);
+    width: 40px;
+    height: 40px;
+}
+.wrapper-local>p {
+    position: absolute;
+    top: 9px;
+    left: 60px;
+    width: 321px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+.img-mail {
+    background-image: url(../img/svg/contacts_mail.svg);
+    width: 40px;
+    height: 40px;
+}
+.wrapper-mail>a {
+    position: absolute;
+    top: 64px;
+    left: 60px;
+    width: 146px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    text-decoration: none;
+    cursor: pointer;
+}
+.img-phone {
+    background-image: url(../img/svg/contacts_phone.svg);
+    width: 40px;
+    height: 40px;
+}
+.wrapper-phone>a {
+    position: absolute;
+    top: 119px;
+    left: 60px;
+    width: 158px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social {
+    position: absolute;
+    width: 482px;
+    height: 95px;
+    top: 328px;
+}
+
+.contacts-btn-one {
+    position: absolute;
+    top: 3px;
+    left: 325px;
+    width: 157px;
+    height: 33px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
+.contacts-btn-one:hover {
+    opacity: 0.7;
+}
+
+.contacts-btn-two {
+    position: absolute;
+    top: 58px;
+    left: 325px;
+    width: 157px;
+    height: 33px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
+.contacts-btn-two:hover {
+    opacity: 0.7;
+}
+
+.soc {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 202px;
+    grid-template-rows: 40px;
+    row-gap: 15px;
+}
+
+.img-insta {
+    background-image: url(../img/svg/contacts_insta.svg);
+    width: 40px;
+    height: 40px;
+}
+.soc-insta>a {
+    position: absolute;
+    top: 9px;
+    left: 60px;
+    width: 142px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-vk {
+    background-image: url(../img/svg/contacts_vk.svg);
+    width: 40px;
+    height: 40px;
+}
+.soc-vk>a {
+    position: absolute;
+    top: 64px;
+    left: 60px;
+    width: 142px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.map {
+    background-image: url(../img/jpg/map.jpg);
+    width: 758px;
+    height: 429px;  
+    position: absolute;
+    top: 0;
+    left: 522px;
+    filter: drop-shadow(0px 10px 20px rgba(17, 17, 17, 0.1));
+    border-radius: 10px;
 }
